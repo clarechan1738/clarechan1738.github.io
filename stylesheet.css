@@ -1,6 +1,16 @@
-body
-{
-	font-family: "Oswald", sans-serif;
-	font-size: 60;
-	text-align: center;
+body{
+	
+		font-family: 'Oswald', sans-serif;
+		font-size: 60;
+		margin: 24;
+		text-align: center;
+		size: 100%;
+}
+
+hr{
+		background-color: purple;
+		border: 3px solid black;
+		width: 98%;
+		height:5px;
+	
 }
