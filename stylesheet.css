@@ -1,16 +1,46 @@
 body{
+	font-family: "Lucida Sans Typewriter", "Lucida Console";
+	font-size: 12;
+	margin: 24;
+	text-align: left;
+	size: 95%;
 	
-		font-family: 'Oswald', sans-serif;
-		font-size: 60;
-		margin: 24;
-		text-align: center;
-		size: 100%;
 }
 
-hr{
-		background-color: purple;
-		border: 3px solid black;
-		width: 98%;
-		height:5px;
-	
+table{
+	border: 3px solid black;
+}	
+
+.ListElements{
+	font-family: "Andale Mono", AndaleMono, monospace;
+	font-size: 18;
+}
+
+#intr{
+	color: purple;
+}
+
+img.gameLogo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5%;
+	height: auto;
+	max-width: 50%
+}
+
+.gameTitle{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 50%;
+	text-align: center;
+}
+
+.gameDesc{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 50%;
+	text-align: center;
 }
