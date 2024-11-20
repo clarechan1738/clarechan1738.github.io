@@ -1,15 +1,19 @@
 body{
-	font-family: "Lucida Sans Typewriter", "Lucida Console";
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 12;
 	margin: 24;
 	text-align: left;
 	size: 95%;
-	
+	background-color: rgb(179, 255, 226);
 }
 
 table{
+	margin-left:auto;
+	margin-right:auto;
 	border: 3px solid black;
-}	
+	border-spacing: 40px;
+	display: block;
+}
 
 .ListElements{
 	font-family: "Andale Mono", AndaleMono, monospace;
@@ -17,16 +21,16 @@ table{
 }
 
 #intr{
-	color: purple;
+	color: rgb(50, 6, 91);
 }
 
 img.gameLogo{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	border-radius: 5%;
-	height: auto;
-	max-width: 50%
+	border-radius: 20%;
+	height: 300px;
+	width: 380px;
 }
 
 .gameTitle{
@@ -35,12 +39,52 @@ img.gameLogo{
 	margin-right: auto;
 	max-width: 50%;
 	text-align: center;
+	text-decoration: underline;
+	color:rgb(170, 84, 255);
 }
 
 .gameDesc{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 50%;
+	max-width: 70%;
 	text-align: center;
 }
+
+.navItems{
+	float: right;
+	margin-right: 2.5%;
+	word-spacing: 60px;
+	font-size: 15px;
+}
+
+.navTitle{
+	margin-left: 2.5%;
+	font-size: 30px;
+}
+
+.tooltip{
+	position:relative;
+	display:inline-block;
+	border-bottom:1px aliceblue;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color:aliceblue;
+	text-align:center;
+	border-radius:6px;
+	padding:5px 0;
+	top: 100%;
+	left: 50%;
+	margin-left: -60px;
+
+	position:absolute;
+	z-index:1;
+  }
+
+  .tooltip:hover .tooltiptext {
+	visibility:visible;
+  }
