@@ -5,6 +5,7 @@ body{
 	text-align: left;
 	size: 95%;
 	background-color: rgb(179, 255, 226);
+	margin: 0;
 }
 
 table{
@@ -26,29 +27,40 @@ table{
 
 img.gameLogo{
 	display: block;
-	margin-left: auto;
+	margin-left: 40%; 	
 	margin-right: auto;
+	margin-bottom:100%;
+	margin-top:50%;
 	border-radius: 20%;
-	height: 300px;
-	width: 380px;
+	height: 400px;
+	width: 480px;
 }
 
 .gameTitle{
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 50%;
-	text-align: center;
+	margin-left: 10%;
+	margin-right: 0;
+	margin-top: -17%;
+	max-width: 100%;
+	text-align:center;
 	text-decoration: underline;
 	color:rgb(170, 84, 255);
 }
 
 .gameDesc{
 	display: block;
-	margin-left: auto;
+	margin-left: 20%;
+	margin-top: 5%;
 	margin-right: auto;
 	max-width: 70%;
 	text-align: center;
+}
+
+.navBar{
+	background:rgb(255, 176, 225);
+	overflow: hidden;
+	width: 100%;
+	height: 4.5%;
 }
 
 .navItems{
@@ -62,29 +74,3 @@ img.gameLogo{
 	margin-left: 2.5%;
 	font-size: 30px;
 }
-
-.tooltip{
-	position:relative;
-	display:inline-block;
-	border-bottom:1px aliceblue;
-}
-
-.tooltip .tooltiptext {
-	visibility: hidden;
-	width: 120px;
-	background-color: black;
-	color:aliceblue;
-	text-align:center;
-	border-radius:6px;
-	padding:5px 0;
-	top: 100%;
-	left: 50%;
-	margin-left: -60px;
-
-	position:absolute;
-	z-index:1;
-  }
-
-  .tooltip:hover .tooltiptext {
-	visibility:visible;
-  }
