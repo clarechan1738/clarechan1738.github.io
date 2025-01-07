@@ -74,3 +74,73 @@ img.gameLogo{
 	margin-left: 2.5%;
 	font-size: 30px;
 }
+
+.aboutTitle{
+	margin-left: 3%;
+	margin-top: 2%;
+	margin-right: 0;
+	margin-bottom: 0;
+	max-width: 100%;
+	text-decoration: underline;
+	color:rgb(170, 84, 255);
+}
+
+.aboutTxt{
+	display: block;
+	margin-left: 10%;
+	margin-top: 5%;
+	margin-right: auto;
+	max-width: 50%;
+	text-align: center;
+}
+
+.aboutImgs{
+	display: block;
+	margin-left: 15%; 	
+	margin-right: auto;
+	margin-bottom:2%;
+	margin-top:10%;
+	border-radius: 20%;
+	height: 650px;
+	width: 1200px;
+}
+
+
+.contactTxt{
+	display: block;
+	margin-left: 2%;
+	margin-top: 2%;
+	margin-right: auto;
+	max-width: 50%;
+}
+
+.LinkTxt{
+	display: block;
+	margin-left: 2%;
+	margin-top: 2%;
+	margin-right: auto;
+	max-width: 50%;
+	color: rgb(0, 102, 255);
+	text-decoration: underline;
+}
+
+.contactImgs{
+	display: block;
+	margin-left: 2%; 	
+	margin-right: auto;
+	margin-bottom:0%;
+	margin-top:-2%;
+	border-radius: 20%;
+	height: 64px;
+	width: 64px;
+}
+
+.linkTxt2{
+	display: block;
+	margin-left: 2%;
+	margin-top: 0%;
+	margin-right: auto;
+	max-width: 50%;
+	color: rgb(0, 102, 255);
+	text-decoration: underline;
+}
